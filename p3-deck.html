@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!doctype html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="utf-8"&gt;</p>
+<p class="p1">&lt;title&gt;The P3 Framework — Jared Tan Realty&lt;/title&gt;</p>
+<p class="p1">&lt;link href="https://fonts.googleapis.com/css2?family=GFS+Baskerville:ital@0;1&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1">:root{--navy:#1f2935;--champagne:#e8c8a2;--champagne2:#f3ddc6;--gold:#cda36a;--bronze:#b8915c;--bronze-deep:#9c7642;--ink:#1d2430;--paper:#faf8f3;--line:#e4ddd0;--panel:#f4efe5;}</p>
+<p class="p1">*{box-sizing:border-box;margin:0;padding:0;}</p>
+<p class="p1">body{font-family:'Carlito','Calibri','Segoe UI',sans-serif;color:var(--ink);}</p>
+<p class="p1">.page{position:relative;width:1280px;height:720px;background:var(--paper);padding:46px 80px 74px 80px;display:flex;flex-direction:column;page-break-after:always;}</p>
+<p class="p1">.serif{font-family:'GFS Baskerville',Georgia,serif;font-weight:400;}</p>
+<p class="p1">.top{display:flex;justify-content:space-between;align-items:center;height:30px;}</p>
+<p class="p1">.mark{width:56px;height:27px;}</p>
+<p class="p1">.mark path{fill:none;stroke:var(--bronze);stroke-width:10;stroke-linecap:round;stroke-linejoin:round;}</p>
+<p class="p1">.tagline{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--bronze);}</p>
+<p class="p1">main{flex:1;display:flex;flex-direction:column;justify-content:center;padding:14px 0;}</p>
+<p class="p1">.eyebrow{font-size:15px;letter-spacing:3px;text-transform:uppercase;color:var(--bronze-deep);font-weight:700;}</p>
+<p class="p1">h1{font-family:'GFS Baskerville',Georgia,serif;font-size:60px;line-height:1.05;color:var(--navy);font-weight:400;}</p>
+<p class="p1">h2{font-family:'GFS Baskerville',Georgia,serif;font-size:42px;line-height:1.1;color:var(--navy);font-weight:400;}</p>
+<p class="p1">.italic{font-style:italic;color:var(--bronze-deep);}</p>
+<p class="p1">p{font-size:21px;line-height:1.5;color:#3a4250;}</p>
+<p class="p1">.lead{font-size:24px;}</p>
+<p class="p1">.rule{width:88px;height:3px;background:var(--gold);margin:20px 0;}</p>
+<p class="p1">.foot{position:absolute;left:80px;right:80px;bottom:26px;display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:9px;font-size:11px;color:var(--bronze);}</p>
+<p class="p1">.cols{display:flex;gap:28px;margin-top:26px;}</p>
+<p class="p1">.card{flex:1;background:var(--panel);border-top:3px solid var(--gold);padding:24px 22px;}</p>
+<p class="p1">.card h3{font-family:'GFS Baskerville',serif;font-size:26px;color:var(--navy);margin-bottom:6px;}</p>
+<p class="p1">.card p{font-size:16px;line-height:1.45;}</p>
+<p class="p1">.card .num{font-family:'GFS Baskerville',serif;font-size:20px;color:var(--bronze);}</p>
+<p class="p1">.kv{font-size:18px;line-height:1.7;}</p>
+<p class="p1">.kv b{color:var(--navy);}</p>
+<p class="p1">.badge{display:inline-block;font-size:13px;letter-spacing:2px;text-transform:uppercase;padding:5px 14px;border-radius:20px;font-weight:700;margin-bottom:14px;}</p>
+<p class="p1">.badge.w{background:#e4f0e8;color:#2f7d50;}</p>
+<p class="p1">.badge.c{background:#f6e7e2;color:#b5462f;}</p>
+<p class="p1">.stat{font-family:'GFS Baskerville',serif;font-size:30px;color:var(--navy);margin:6px 0 16px;}</p>
+<p class="p1">.stat .win{color:#2f7d50;}.stat .warn{color:#b5462f;}</p>
+<p class="p1">.lesson{font-size:21px;margin-top:14px;}.lesson b{color:var(--navy);}</p>
+<p class="p1">table{width:100%;border-collapse:collapse;font-size:17px;}</p>
+<p class="p1">td,th{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top;}</p>
+<p class="p1">th{color:var(--bronze-deep);text-transform:uppercase;letter-spacing:1px;font-size:12px;}</p>
+<p class="p1">td b{color:var(--navy);}</p>
+<p class="p1">.dark{background:linear-gradient(150deg,#243140 0%,#131c26 58%,#0d141d 100%);color:#e8edf2;}</p>
+<p class="p1">.dark .mark path{stroke:var(--champagne);}</p>
+<p class="p1">.dark .tagline{color:var(--champagne);}</p>
+<p class="p1">.dark .eyebrow{color:var(--champagne);}</p>
+<p class="p1">.dark h1,.dark h2{color:var(--champagne2);}</p>
+<p class="p1">.dark p{color:#d3dae2;}</p>
+<p class="p1">.dark .italic{color:var(--champagne);}</p>
+<p class="p1">.dark .foot{color:#9fb0c0;border-color:rgba(232,200,162,.25);}</p>
+<p class="p1">.cover{align-items:center;justify-content:center;text-align:center;}</p>
+<p class="p1">.cover .lock svg{width:150px;height:70px;display:block;margin:0 auto 20px;}</p>
+<p class="p1">.cover .lock svg path{fill:none;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;}</p>
+<p class="p1">.wordmark{font-family:'GFS Baskerville',serif;letter-spacing:6px;color:var(--champagne);font-size:44px;}</p>
+<p class="p1">.wordmark span{display:block;font-size:19px;letter-spacing:9px;color:var(--champagne2);margin-top:4px;}</p>
+<p class="p1">.cover h1{margin-top:30px;}</p>
+<p class="p1">.cstrip{position:absolute;bottom:44px;left:80px;right:80px;display:flex;justify-content:space-between;font-size:12px;color:var(--champagne);letter-spacing:1px;}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page dark cover" data-document-role="page" data-label="Cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="lock"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;svg viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17" stroke="#e0b483"/&gt;&lt;path d="M57,150 L128,17" stroke="#efd3b1"/&gt;&lt;path d="M113,150 L225,14 L336,150" stroke="#f5e8db"/&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wordmark"&gt;JARED TAN&lt;span&gt;REALTY&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="eyebrow" style="margin-top:18px;"&gt;The P&amp;sup3; Framework&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1&gt;How I Find &lt;span class="italic"&gt;Undervalued&lt;/span&gt;&lt;br&gt;Properties With a Clear Exit&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p style="margin-top:16px;color:#cfd8e2;"&gt;Strategic Moves. Real Results.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="cstrip"&gt;&lt;span&gt;CEA Reg. No. R063425I &amp;nbsp;&amp;middot;&amp;nbsp; Licence L3008022J&lt;/span&gt;&lt;span&gt;+65 9152 0660 &amp;nbsp;&amp;middot;&amp;nbsp; jaredtanrealty@gmail.com&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page dark" data-document-role="page" data-label="The Promise"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Profit is made at the &lt;span class="italic"&gt;exit&lt;/span&gt;,&lt;br&gt;not the entry.&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="rule"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="lead" style="max-width:880px;"&gt;For most buyers, a property purchase is a leap of faith. Mine isn&amp;rsquo;t. Every property I recommend runs through one framework &amp;mdash; and every claim in this deck is backed by a real deal, with the numbers attached.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty&lt;/span&gt;&lt;span&gt;02&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="P3 Overview"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="eyebrow"&gt;The Framework&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Three decisions. One disciplined sequence.&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="cols"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card"&gt;&lt;div class="num"&gt;P1&lt;/div&gt;&lt;h3&gt;Price&lt;/h3&gt;&lt;p&gt;Enter below the market, not at it. The right quantum &amp;mdash; judged against the whole market, not the showroom.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card"&gt;&lt;div class="num"&gt;P2&lt;/div&gt;&lt;h3&gt;Position&lt;/h3&gt;&lt;p&gt;Own the unit the next buyer will fight for. The project gets you in; the unit decides your exit.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card"&gt;&lt;div class="num"&gt;P3&lt;/div&gt;&lt;h3&gt;Plan&lt;/h3&gt;&lt;p&gt;Know your exit before you enter. If the exit isn&amp;rsquo;t planned, the profit is left to luck.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;03&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Price"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="eyebrow"&gt;P1&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Price &amp;mdash; enter below the market&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="rule"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="kv"&gt;&lt;b&gt;What I analyse:&lt;/b&gt; new-launch vs resale gaps &amp;middot; district &amp;amp; regional price disparities &amp;middot; PSF vs quantum &amp;middot; developer pricing strategy &amp;middot; land-bid and replacement-cost signals.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="margin-top:16px;"&gt;&lt;b style="color:var(--navy);"&gt;Why it matters:&lt;/b&gt; you don&amp;rsquo;t profit buying at &amp;ldquo;fair value.&amp;rdquo; You profit buying below where the unit will trade once the market catches up. Get this wrong and you spend years just getting back to even.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;04&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Position"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="eyebrow"&gt;P2&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Position &amp;mdash; the right unit, not just the right project&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="rule"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="kv"&gt;&lt;b&gt;What I analyse:&lt;/b&gt; stack, facing &amp;amp; orientation &amp;middot; layout efficiency &amp;middot; bedroom type vs the future demand pool &amp;middot; scarcity and unblockable attributes &amp;middot; floor premium vs cost.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="margin-top:16px;"&gt;&lt;b style="color:var(--navy);"&gt;Why it matters:&lt;/b&gt; two units in the same block can move in opposite directions. Buy a &amp;ldquo;good project&amp;rdquo; with the wrong unit and you still lose &amp;mdash; because you picked the one nobody wants next.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;05&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Plan"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="eyebrow"&gt;P3&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Plan &amp;mdash; know your exit before you enter&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="rule"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="kv"&gt;&lt;b&gt;What I analyse:&lt;/b&gt; 3 / 5 / 10-year projections &amp;middot; demand catalysts (MRT, schools, transformation) &amp;middot; the supply pipeline you&amp;rsquo;ll compete with at exit &amp;middot; holding power &amp;middot; the downside and worst case.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="margin-top:16px;"&gt;&lt;b style="color:var(--navy);"&gt;Why it matters:&lt;/b&gt; entry is one decision; the exit is where profit is realised. Without a plan, you become a forced seller &amp;mdash; wrong time, wrong cycle.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;06&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Scorecard System"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="eyebrow"&gt;The Method&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;The P&amp;sup3; Property Scorecard&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="margin-top:8px;max-width:940px;"&gt;Every unit graded before I recommend it. Four criteria per P, each scored 1&amp;ndash;5 &amp;mdash; 20 points per P, 60 in total. The score gives a clear verdict. No emotion. No guesswork.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;table style="margin-top:22px;max-width:900px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;th&gt;Total / 60&lt;/th&gt;&lt;th&gt;Verdict&lt;/th&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b style="color:#2f7d50;"&gt;48 &amp;ndash; 60 &amp;middot; Strong&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Proceed with confidence&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b style="color:var(--bronze-deep);"&gt;36 &amp;ndash; 47 &amp;middot; Conditional&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Negotiate, restructure, or refine the unit&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b style="color:#b5462f;"&gt;Below 36 &amp;middot; Walk away&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The right move is often not to buy&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="margin-top:18px;font-style:italic;color:var(--bronze-deep);max-width:900px;"&gt;The scorecard is a discipline, not a calculator. The numbers surface the blind spots; judgment fills the gaps numbers can&amp;rsquo;t.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;07&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Scorecard — Price"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="eyebrow"&gt;The Scorecard &amp;middot; Price &amp;middot; / 20&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Grading the entry price&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;table style="margin-top:18px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;th style="width:38%;"&gt;Criterion&lt;/th&gt;&lt;th&gt;Scores 5 when&amp;hellip;&lt;/th&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Entry PSF vs district comparables&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Meaningfully below comparable resale / new-launch PSF&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Quantum vs median for the size&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Below the median for that bedroom type in the area&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Gap vs recent transactions&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Clear undervaluation vs the latest caveats / launch pricing&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Value signal&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Strong land-bid / replacement-cost / disparity support&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;08&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Scorecard — Position"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="eyebrow"&gt;The Scorecard &amp;middot; Position &amp;middot; / 20&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Grading the unit&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;table style="margin-top:18px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;th style="width:38%;"&gt;Criterion&lt;/th&gt;&lt;th&gt;Scores 5 when&amp;hellip;&lt;/th&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Stack &amp;amp; facing&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Best light and wind, low noise, privacy, no harsh west sun&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Layout efficiency&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Regular shape, minimal wastage, fully functional&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Bedroom type vs exit demand&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The type the future buyer pool wants most&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Scarcity / unblockable&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Views or attributes that can&amp;rsquo;t be replicated nearby&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;09&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Scorecard — Plan"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="eyebrow"&gt;The Scorecard &amp;middot; Plan &amp;middot; / 20&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Grading the exit&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;table style="margin-top:18px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;th style="width:38%;"&gt;Criterion&lt;/th&gt;&lt;th&gt;Scores 5 when&amp;hellip;&lt;/th&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Defined exit thesis (3 / 5 / 10-yr)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A clear, evidence-based exit path exists&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Holding power &amp;amp; cashflow buffer&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Comfortable through a downturn &amp;mdash; never a forced sale&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Demand catalysts&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Confirmed infrastructure / schools / transformation ahead&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Supply &amp;amp; competition at exit&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Limited competing supply when you come to sell&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page dark" data-document-role="page" data-label="The Proof"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="eyebrow"&gt;The Proof&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Three wins. Two warnings.&lt;br&gt;&lt;span class="italic"&gt;Real numbers.&lt;/span&gt;&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="rule"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="max-width:840px;"&gt;Frameworks are easy to claim. Here are five real deals I advised on &amp;mdash; with the figures. The warnings matter as much as the wins: they&amp;rsquo;re exactly what my clients avoid.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty&lt;/span&gt;&lt;span&gt;11&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Case 1 Affinity 3BR"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="badge w"&gt;Win &amp;middot; Price + Plan&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Affinity at Serangoon &amp;middot; 3-Bedroom &lt;span style="font-size:22px;color:var(--bronze);"&gt;(D19 &amp;middot; OCR)&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="stat"&gt;~$1.80M (2021) &amp;rarr; ~$2.20M (sold Jul 2024) &amp;middot; &lt;span class="win"&gt;~+$385K &amp;middot; ~21% gross&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="max-width:900px;"&gt;Buyer: Upgrader + Investor. The government land bids around Serangoon were already pricing in higher land cost &amp;mdash; the area was set to re-rate. We entered the 3-bedder at the right quantum and mapped the exit before buying.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="lesson"&gt;&lt;b&gt;Lesson &amp;mdash; Land bids predict prices.&lt;/b&gt; Read the signal early and you enter ahead of the market.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;12&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Case 2 Woodleigh"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="badge w"&gt;Win &amp;middot; Position&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;The Woodleigh Residences &amp;middot; 2-Bedroom &lt;span style="font-size:22px;color:var(--bronze);"&gt;(D13 &amp;middot; RCR)&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="stat"&gt;~$1.10M (2021) &amp;rarr; ~$1.40M (2025) &amp;middot; &lt;span class="win"&gt;~+$220K &amp;middot; ~19% gross&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="max-width:900px;"&gt;Buyer: First-Time Buyer + Investor. Buyers were paying a premium for the lake-facing stacks. We skipped the view premium and took the stack with the better layout and exit profile.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="lesson"&gt;&lt;b&gt;Lesson &amp;mdash; Buy for the exit, not the view.&lt;/b&gt; The view you pay for rarely pays you back. The exit does.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;13&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Case 3 Urban Vista"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="badge w"&gt;Win &amp;middot; Price&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Urban Vista &amp;middot; 3-Bedroom Dual-Key &lt;span style="font-size:22px;color:var(--bronze);"&gt;(D16 &amp;middot; OCR)&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="stat"&gt;~$1.35M (2021) &amp;rarr; ~$1.73M (2026 valuation) &amp;middot; &lt;span class="win"&gt;~+$380K paper gain &amp;middot; still held&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="max-width:900px;"&gt;Buyer: Upgrader (own-stay). Entered well below replacement cost in a transforming precinct, with a dual-key layout for optionality &amp;mdash; rent one side, live in the other. The gain was secured at entry, not chased later.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="lesson"&gt;&lt;b&gt;Lesson &amp;mdash; You make your money on the way in.&lt;/b&gt; Enter right and time does the rest.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;14&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Case 4 The M"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="badge c"&gt;Warning &amp;middot; Price + Position&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;The M &amp;middot; Studio (~420 sqft) &lt;span style="font-size:22px;color:var(--bronze);"&gt;(D7 &amp;middot; CCR)&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="stat"&gt;~$1.03M (2020) &amp;rarr; ~$908K (2026 valuation) &amp;middot; &lt;span class="warn"&gt;~&amp;minus;$121K &amp;middot; underwater&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="max-width:900px;"&gt;The lowest-quantum unit looked affordable. But a shoebox studio in an oversupplied CCR pocket had the weakest exit demand in the project. Cheap to buy, hard to sell.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="lesson"&gt;&lt;b&gt;Lesson &amp;mdash; The cheapest unit to buy is rarely the best to own.&lt;/b&gt; Low quantum is not the same as good value.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;15&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page" data-document-role="page" data-label="Case 5 Affinity 1BR"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="badge c"&gt;Warning &amp;middot; Position&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Affinity at Serangoon &amp;middot; 1-Bedroom &lt;span style="font-size:22px;color:var(--bronze);"&gt;(D19 &amp;middot; OCR)&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="stat"&gt;~$940K (2023) &amp;rarr; ~$908K (2026 valuation) &amp;middot; &lt;span class="warn"&gt;~&amp;minus;$32K &amp;middot; underwater&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="max-width:900px;"&gt;Same project as Case 1 &amp;mdash; but the wrong unit type. The 1-bedder competed against a deep pool of identical units and newer launches nearby. Thin exit demand.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="lesson"&gt;&lt;b&gt;Lesson &amp;mdash; A good project can&amp;rsquo;t rescue the wrong unit.&lt;/b&gt; Position is decisive.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty &amp;middot; Strategic Moves. Real Results.&lt;/span&gt;&lt;span&gt;16&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page dark" data-document-role="page" data-label="Same Building"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="top"&gt;&lt;svg class="mark" viewBox="0 0 340 160"&gt;&lt;path d="M8,150 L75,17"/&gt;&lt;path d="M57,150 L128,17"/&gt;&lt;path d="M113,150 L225,14 L336,150"/&gt;&lt;/svg&gt;&lt;span class="tagline"&gt;Strategic Moves. Real Results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="eyebrow"&gt;The Clincher&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Same building.&lt;br&gt;&lt;span class="italic"&gt;Opposite outcomes.&lt;/span&gt;&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="rule"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="max-width:880px;"&gt;Case 1 and Case 5 are the &lt;b style="color:var(--champagne2);"&gt;same project&lt;/b&gt;, bought two years apart. One made ~$385K; the other is underwater. The project didn&amp;rsquo;t decide the result &amp;mdash; the unit did. That&amp;rsquo;s why I never sell you a project. I help you choose the unit.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="foot"&gt;&lt;span&gt;Jared Tan Realty&lt;/span&gt;&lt;span&gt;17&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="page dark cover" data-document-role="page" data-label="Work With Me"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="eyebrow"&gt;Work With Me&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1 style="margin-top:14px;"&gt;Every recommendation graded.&lt;br&gt;Every claim &lt;span class="italic"&gt;documented.&lt;/span&gt;&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p style="margin-top:18px;color:#cfd8e2;max-width:820px;"&gt;If you&amp;rsquo;re weighing a purchase &amp;mdash; or a sale &amp;mdash; I&amp;rsquo;ll run your shortlist through the same P&amp;sup3; scorecard before you commit a single dollar.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p style="margin-top:26px;color:var(--champagne2);font-size:24px;" class="serif"&gt;Jared Tan &amp;middot; District Director, PropNex Realty&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p style="margin-top:6px;color:#cfd8e2;"&gt;+65 9152 0660 &amp;nbsp;&amp;middot;&amp;nbsp; jaredtanrealty@gmail.com&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="cstrip"&gt;&lt;span&gt;CEA Reg. No. R063425I &amp;nbsp;&amp;middot;&amp;nbsp; PropNex Agency Licence No. L3008022J&lt;/span&gt;&lt;span&gt;Figures approximate &amp;amp; indicative, gross of costs. Past performance is not a guarantee of future results.&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
